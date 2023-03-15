@@ -1,0 +1,40 @@
+body{
+  background-color: #f4f4f4;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    padding:50px;
+}
+#header div{
+    display: inline-block;
+}
+#header .contato{
+    float: right;
+}
+nav.menu{
+    background-color: #ffda1f;
+    text-align: center;
+}
+nav.menu ul li{
+    display: inline-block;
+    padding: 18px 90px; 
+    font-size:17px;
+}
+nav.menu ul li a{
+    color: #000;
+}
+a{
+  text-decoration: none;
+}
+.banner img{
+    width: 100%;
+}
+.marcas ul li {
+    display: inline-block;
+    font-size: 35px;
+    width: 16%;
+    padding: 50px;
+}
