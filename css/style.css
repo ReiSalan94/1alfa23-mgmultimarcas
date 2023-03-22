@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
   background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
 }
 section{
     width: 1200px;
@@ -37,4 +39,63 @@ a{
     font-size: 35px;
     width: 16%;
     padding: 50px;
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #474747;
+}
+.item img {
+    width: 100%;
+}
+.item .title {
+    font-size: 23px;
+    font-weight: bold;
+}
+.financiamento {
+    background: #ffda1f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
+}
+.botao a {
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+}
+.botao {
+    margin-top: 30px;
+}
+.produtos{
+    text-align: center;
+    margin: 50px 0;
+}
+.produtos .titulo{
+    font-size:45px;
+    font-weight:bold;    
+}
+.produtos .subtitulo{
+    font-size:30px;
+    font-weight:bold; 
+    color:#474747;
+    
+    margin-top: 15px;
+}
+.sublinhado{
+    width: 150px;
+   background: #ffda1f;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+a:hover{
+    transition: 0.3s;
+    opacity: 0.8;
 }
