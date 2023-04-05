@@ -72,19 +72,18 @@ a{
 .botao {
     margin-top: 30px;
 }
-.produtos{
+.produtos, .depoimentos{
     text-align: center;
     margin: 50px 0;
 }
-.produtos .titulo{
+ .titulo{
     font-size:45px;
     font-weight:bold;    
 }
-.produtos .subtitulo{
+ .subtitulo{
     font-size:30px;
     font-weight:bold; 
     color:#474747;
-    
     margin-top: 15px;
 }
 .sublinhado{
@@ -98,4 +97,27 @@ a{
 a:hover{
     transition: 0.3s;
     opacity: 0.8;
+}
+footer{
+    background-color: #474747; 
+}
+footer .item{
+    color:#fff;
+}
+
+.depoimentos .item{
+    border: 1px solid #474747;
+    width: calc(30% - 2px); 
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente {
+    margin-bottom: -100px;
+    padding-top: 10px;
+}
+.depoimentos .cliente .nome{
+    font-weight: bold;
+    text-transform: uppercase;
 }
