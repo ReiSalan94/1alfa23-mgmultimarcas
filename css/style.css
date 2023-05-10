@@ -1,61 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-body{
-  background-color: #f4f4f4;
-  font-family: 'Montserrat', sans-serif;
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
 }
-section{
+
+section {
     width: 1200px;
     margin: 0 auto;
 }
-#header{
-    padding:50px;
+
+#header {
+    padding: 50px;
 }
-#header div{
+
+#header div {
     display: inline-block;
 }
-#header .contato{
+
+#header .contato {
     float: right;
 }
-nav.menu{
+
+nav.menu {
     background-color: #ffda1f;
     text-align: center;
 }
-nav.menu ul li{
+
+nav.menu ul li {
     display: inline-block;
-    padding: 18px 90px; 
-    font-size:17px;
+    padding: 18px 90px;
+    font-size: 17px;
 }
-nav.menu ul li a{
+
+nav.menu ul li a {
     color: #000;
 }
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-.banner img{
+
+.banner img {
     width: 100%;
 }
+
 .marcas ul li {
     display: inline-block;
     font-size: 35px;
     width: 16%;
     padding: 50px;
 }
+
 .item {
     display: inline-block;
     width: 30%;
     padding: 1.5%;
     font-size: 20px;
-/*    text-align: center;*/
+    /*    text-align: center;*/
     line-height: 25px;
     color: #474747;
 }
+
 .item img {
     width: 100%;
 }
+
 .item .title {
     font-size: 23px;
     font-weight: bold;
 }
+
 .financiamento {
     background: #ffda1f;
     text-align: center;
@@ -64,64 +79,79 @@ a{
     padding: 50px;
     line-height: 40px;
 }
+
 .botao a {
     background: #000;
     color: #fff;
     padding: 10px 30px;
 }
+
 .botao {
     margin-top: 30px;
 }
-.produtos, .depoimentos{
+
+.produtos,
+.depoimentos {
     text-align: center;
     margin: 50px 0;
 }
- .titulo{
-    font-size:45px;
-    font-weight:bold;    
+
+.titulo {
+    font-size: 45px;
+    font-weight: bold;
 }
- .subtitulo{
-    font-size:30px;
-    font-weight:bold; 
-    color:#474747;
+
+.subtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
     margin-top: 15px;
 }
-.sublinhado{
+
+.sublinhado {
     width: 150px;
-   background: #ffda1f;
+    background: #ffda1f;
     height: 10px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-a:hover{
+
+a:hover {
     transition: 0.3s;
     opacity: 0.8;
 }
-footer{
-    background-color: #474747; 
-}
-footer .item{
-    color:#fff;
+
+footer {
+    background-color: #474747;
 }
 
-.depoimentos .item{
-    border: 1px solid #474747;
-    width: calc(30% - 2px); 
+footer .item {
+    color: #fff;
 }
-.depoimentos img{
+
+.depoimentos .item {
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+}
+
+.depoimentos img {
     width: 100px;
     border-radius: 50px;
 }
+
 .depoimentos .cliente {
     margin-bottom: -100px;
     padding-top: 10px;
 }
-.depoimentos .cliente .nome{
+
+.depoimentos .cliente .nome {
     font-weight: bold;
     text-transform: uppercase;
 }
-.contato input, .contato textarea{
+
+.contato input,
+.contato textarea {
     border-bottom: 2px solid #fff;
     height: 35px;
     padding: 5px;
@@ -129,10 +159,12 @@ footer .item{
     font-size: 20px;
     max-width: 250px;
 }
+
 .contato textarea {
     height: 50px;
     max-width: 250px;
 }
+
 .contato button {
     background: transparent;
     color: #fff;
@@ -142,30 +174,61 @@ footer .item{
     display: block;
     border-radius: 25px;
 }
+
 .item.contato {
     line-height: 30px;
 }
-.contato h3{
+
+.contato h3 {
     margin-bottom: 20px;
 }
+
 .contato p {
     line-height: 45px;
 }
 
-footer a{
+footer a {
     color: #fff;
 }
 
-footer .social li{
+footer .social li {
     display: inline-block;
     padding: 20px;
     font-size: 50px;
 }
+
 footer .menu li {
     line-height: 35px;
 }
-.content{
+
+.content {
     font-size: 20px;
     line-height: 25px;
     padding: 50px;
+}
+
+.div-50 {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.faleconosco h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.faleconosco input {
+    background: #d2d2d2;
+    width: 250px;
+    padding: 10px 2px;
+}
+input[type=radio] {
+    width: 25px;
+    float: left;
+    margin: 5px 0;
+}
+.faleconosco ul li{
+    display: inline-block;
 }
