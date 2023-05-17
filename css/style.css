@@ -219,7 +219,7 @@ footer .menu li {
     text-transform: uppercase;
 }
 
-.faleconosco input {
+.faleconosco input, .faleconosco select, .faleconosco textarea {
     background: #d2d2d2;
     width: 250px;
     padding: 10px 2px;
@@ -229,6 +229,32 @@ input[type=radio] {
     float: left;
     margin: 5px 0;
 }
-.faleconosco ul li{
+.faleconosco ul li {
     display: inline-block;
+    background-color: #d2d2d2;
+    padding: 10px;
+}
+.campo {
+    margin: 10px 0;
+}
+
+.faleconosco textarea{
+    width: 500px;
+}
+
+.sobre p{
+    text-align: justify;
+    width: 95%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*SCREEN 480PX */
+@media (max-width: 480px){
+    
+    .contato{
+        display: none!important;
+    }
 }
